@@ -2,9 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Formulario</title>
 </head>
-<body>
+<body background="Imágenes/Nueva%20carpeta/Escudo%20P1.jpg">
+
+<p align="center">
+<div align="center">
+    <form >
+       <h1>
+           <label for="campoNombre" style="color: red">Nombre</label>
+        <br/>
+        <input type="text" id="campoNombre" name="Nombre"  >
+        <br/>
+        <label for="campoApe" style="color: red">Apellidos</label>
+        <br/>
+        <input type="text" id="campoApe" name="Apellidos"  >
+        <br/>
+        <label for="campoContra" style="color: red">Contraseña</label>
+        <br/>
+        <input type="password" id="campoContra" name="Contraseña"  >
+        <br/>
+        <label for="campoDni" style="color: red">DNI</label>
+        <br/>
+        <input type="text" id="campoDni" name="DNI"  >
+        <br/>
+        <label style="color: red">Sexo</label>
+        <br/>
+        <input type="radio" id="idMujer" name="sexo"value="Mujer">
+        <label for="idMujer" style="color: red">Mujer:</label>
+        <br/>
+        <input type="radio" id="idHombre" name="sexo"value="Hombre">
+        <label for="idHombre" style="color: red">Hombre:</label>
+        <br/>
+        <br/>
+        <label style="color: red">Incluir mi foto</label>
+        <input type="file" name="adjunto" value="" style="color: red"/>
+        <br/>
+        <br/>
+        <input type="checkbox" id="checkSuscripcion" checked="checked"/>
+        <label style="color: red">Suscribirme al bolet&iacute;n de novedades </label>
+        <br/>
+        <br/>
+        <input type="button" id="botonGuardar" value="Guardar Cambios" style="color: red"/>
+        <input type="reset" id="botonReset" style="color: red"/>
+       </h1>
+    </form>
+</div>
+</p>
+
 
 </body>
 </html>
